@@ -30,3 +30,7 @@
     height: 10%;
     background-color: chocolate;
 }
+.container .header a img{
+    height: 100%;
+    width: 10%;
+}
