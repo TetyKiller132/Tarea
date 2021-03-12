@@ -11,26 +11,29 @@
     flex-wrap: wrap;
 }
 .header{
+    display: flex;
     width: 100%;
     height: 10%;
-    background-color: green;
+    background-color: darkred;
+    justify-content: space-between;
+
 }
 .center-left{
     width: 25%;
     height: 80%;
-    background-color: magenta;
+    background-color: darkblue;
 }
 .center-rigth{
     width: 75%;
     height: 80%;
-    background-color: blueviolet;
+    background-color: white;
 }
 .footer{
     width: 100%;
     height: 10%;
-    background-color: chocolate;
+    background-color: darkred;
 }
-.container .header a img{
+.container .header .logo a img{
     height: 100%;
     width: 10%;
 }
